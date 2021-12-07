@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>game</title>
+</head>
+<body>
+    <header>
+        <div class="header_left">
+            <div class="main_box">
+                <div onclick="audio.play()" id="rock" class="box">
+                    <img id="rock" src="./assets/rock.svg" height="70px" alt="">
+                    <p>Rock</p>
+                </div>
+                <div onclick="audio.play()"  id="paper" class="box">
+                    <img id="paper" src="./assets/hand.svg" height="70px" alt="">
+                    <p>Paper</p>
+                </div>
+                <div onclick="audio.play()"  id="scissors" class="box">
+                    <img id="scissors" src="./assets/scissors.jpg" height="70px" alt="">
+                    <p>Scissor</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="header_right">
+            <h1 id="result">YOU WIN!</h1>
+            <div class="container">
+                <div id="userChoice" class="user_div">
+                    <i class="fas fa-question"></i>
+                </div>
+                <h2>VS</h2>
+                <div id="compChoice" class="comp_div">
+                    <i class="fas fa-question"></i>
+                </div>
+            </div>
+            <!-- <button id="btn" class="btn">start</button> -->
+        </div>
+    </header>
+    <script src="/js/main.js"></script>
+</body>
+</html>

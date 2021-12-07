@@ -1,0 +1,122 @@
+main {
+   margin: 0;
+   padding: 0;
+}
+.main_img {
+    margin-top: 200px;
+    margin-left: 640px;
+   transform: translate(-50%, -50%);
+   animation: myfirst 2.0s infinite linear;
+}
+@keyframes myfirst {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg); 
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg); 
+    }
+}
+.main_btns {
+    margin: 0px 320px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color:#10A4F8;
+    height: 48px;
+    width: 290px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: white;
+    border: 1px solid #10A4F8;
+    color: #10A4F8;
+}
+.main_box {
+    margin-top: 90px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(220, 220, 220, 0.089);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid rgba(168, 162, 162, 0.384);
+    border-radius: 15px;
+}
+p {
+    color: rgb(184, 181, 181);
+}
+header {
+    display: flex;
+}
+.header_right {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 130px 300px;
+}
+.user_div {
+    height: 60px; 
+    width: 60px;
+    background-color: rgba(199, 195, 195, 0.075);
+    border: 1px solid rgba(214, 204, 204, 0.384);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 55px;
+    margin-right: 50px;
+}
+.user_div i {
+    font-size: 69px;
+    color: rgb(187, 179, 179);
+}
+.comp_div {
+    height: 60px; 
+    width: 60px;
+    background-color: rgba(199, 195, 195, 0.068);
+    border: 1px solid rgba(214, 204, 204, 0.384);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 55px;
+    margin-left: 50px;
+}
+.comp_div i {
+    font-size: 69px;
+    color: rgb(187, 179, 179);
+}
+h2 {
+    margin-top: 65px;
+    font-size: 45px;
+    color: rgb(196, 185, 185);
+}
+h1 {
+    margin-top: 50px;
+    color: #F0DD35;
+    font-family: sans-serif;
+}
+.btn {
+    background-color:#0BD4A4;
+    height: 48px;
+    width: 220px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 22px;
+    font-size: 16px;
+}
+.btn:hover {
+    border: 1px solid #0BD4A4;
+    color: #0BD4A4;
+    background-color: white;
+}
